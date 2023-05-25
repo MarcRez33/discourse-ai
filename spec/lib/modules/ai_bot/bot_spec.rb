@@ -86,7 +86,7 @@ RSpec.describe DiscourseAi::AiBot::Bot do
         [bot.title_prompt(second_post)],
         expected_response,
         req_opts: {
-          temperature: 0.7,
+          temperature: 0,
           top_p: 0.9,
           max_tokens: 40,
         },
